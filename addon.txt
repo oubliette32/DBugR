@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+        "name"              "DBugR (DBug 2.0)"
+        "version"           "2.0"
+        "author_name"       "Oubliette"
+        "author_email"      "fuck off"
+        "info"              "A useful addon for debugging and profiling the server and client from the client with GUI's and graphs and all that good stuff."
+        "override"          "0"
+}

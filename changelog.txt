@@ -1,0 +1,14 @@
+27.10.2013 :
+	
+	* Added QAC support
+	
+	* Added gamemode hooks support
+
+21.10.2013 : 
+
+	* Fixed clientside files not being sent to clients properly by
+          replacing GAME paths with LUA paths in file.Find.
+
+	* Fixed bug where second level lua directories were not run.  Repeating file.Find rules		
+	  from the first bug fix fixed this also.
+	
