@@ -1,18 +1,9 @@
-=                                                       =
-=  $$$$$$$\  $$$$$$$\                      $$$$$$$\     =
-=  $$  __$$\ $$  __$$\                     $$  __$$\    =
-=  $$ |  $$ |$$ |  $$ |$$\   $$\  $$$$$$\  $$ |  $$ |   =
-=  $$ |  $$ |$$$$$$$\ |$$ |  $$ |$$  __$$\ $$$$$$$  |   = 
-=  $$ |  $$ |$$  __$$\ $$ |  $$ |$$ /  $$ |$$  __$$<    =
-=  $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |   =
-=  $$$$$$$  |$$$$$$$  |\$$$$$$  |\$$$$$$$ |$$ |  $$ |   =
-=  \_______/ \_______/  \______/  \____$$ |\__|  \__|   =
-=                               $$\   $$ |              =
-=                               \$$$$$$  |              =
-=                                \______/               =
 
-** IT IS STRONGLY SUGGESTED YOU READ THE ENTIRE CONTENTS OF THIS FILE **
-** DBUGR IS RELATIVELY HEAVY AND COULD CAUSE MORE PROBLEMS THEN IT FIXES **
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!PLEASE NOTE THAT USING THIS ADDON IS QUITE HEAVY AND IS FILLED WITH BUGS!!!!!!
+!!!!!USE ONLY IF YOU'RE COMPLETELY AWARE THAT THIS WILL END UP CAUSING PROBLEMS!!!!!
+!!!!!!!!!!!!!!!!!!!!WHEN USED FOR PROLONGED AMOUNTS OF TIME!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ============
 
@@ -24,9 +15,9 @@
 6) Virtualization window
 7) Comparison window
 
-======================================================================================
-================================ 1) GENRAL USE 
-======================================================================================
+===========
+
+###### 1) GENRAL USE 
 
 DBugR is a Lua profiler, performance monitor and script debugger.  The three primary uses of 
 DBugR would be :
@@ -41,9 +32,7 @@ DBugR is not designed to do the following :
 * Deal with crashes or any attempt to combat or analyze them
 * Debug and profile non-lua activities
 
-======================================================================================
-============================= 2) IMPORTANT NOTES
-======================================================================================
+###### 2) IMPORTANT NOTES
 
 * This is a relatively heavy addon.
 
@@ -63,9 +52,7 @@ DBugR is not designed to do the following :
 
 * Clientside logs contain sevrerside information.  All serverside data is networked to the client.
 
-======================================================================================
-============================= 3) INSTRUCTIONS OF USE
-======================================================================================
+###### 3) INSTRUCTIONS OF USE
 
 The main DBugR menu is opened by typing "dbugr_menu_open" in the console.  You should bind this to a key.
 
@@ -83,9 +70,7 @@ If you just like viewing the performance of your server in the analytics menu, t
 
 Explanations of what mentioned windows do and how to use them is covered below.
 
-======================================================================================
-================================ 4) ANALYTICS WINDOW
-======================================================================================
+###### 4) ANALYTICS WINDOW
 
 The analytics menu is used to identify lag and monitor your server's performance.
 
@@ -119,9 +104,7 @@ invisible.
 If required, graphs in the analytics window can be resized horizontally by clicking and dragging the bar
 in the middle of two graphs.
 
-======================================================================================
-================================ 5) PINPOINTING WINDOW
-======================================================================================
+###### 5) PINPOINTING WINDOW
 
 The Pinpointing menu, as the name suggests is used to pinpoint certain data.  For example,
 finding the location of the most expensive hook called at a certain time.
@@ -140,9 +123,7 @@ Clicking on any results in the right pane will download the related source for t
 displayed in the left pane with minimal syntax highlighting.  The line and name of the source file
 is displayed directly above this pane.
 
-======================================================================================
-================================ 6) VIRTUALIZATION WINDOW
-======================================================================================
+###### 6) VIRTUALIZATION WINDOW
 
 The virtualization window's function is simple.  This is where you can manage and view 
 logs from.  Keep in mind, switching back to live view is also done from this menu.
@@ -167,10 +148,7 @@ There are 6 buttons on the bottom right, they are used to :
   all other windows (besides comparisons window, as that window does nothing with data).
 * and finally "Go Live", which simply switches back to live data if you were viewing logs.
 
-
-======================================================================================
-================================ 7) COMPARISON WINDOW
-======================================================================================
+###### 7) COMPARISON WINDOW
 
 The final window, Comparisons.  This window is used only as an optimization tool.
 
