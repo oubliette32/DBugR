@@ -2,15 +2,14 @@
 PLEASE NOTE THAT USING THIS ADDON IS QUITE HEAVY AND IS FILLED WITH BUGS
 USE ONLY IF YOU'RE COMPLETELY AWARE THAT THIS WILL END UP CAUSING PROBLEMS
 WHEN USED FOR PROLONGED AMOUNTS OF TIME
-======
 
-1) General use 
-2) Important notes 
-3) Instructions of use 
-4) Analytics window 
-5) Pinpointing window 
-6) Virtualization window 
-7) Comparison window 
+1. General use 
+2. Important notes 
+3. Instructions of use 
+4. Analytics window 
+5. Pinpointing window 
+6. Virtualization window 
+7. Comparison window 
 
 1) GENRAL USE
 ======
