@@ -156,6 +156,8 @@ net.Receive( DBugR.Prefix .. "OnLoggerFile", function( len ) DBugR.Logger.NewFil
 
 hook.Add( DBugR.Prefix .. "OnDataRaw", "DataLog", function( typ, name, state, data ) 
 
+	if ( !DBUGR_LOGGING_ENABLED ) then return; end
+
 	for _name, sdata in pairs( data ) do 
 
 		if ( isnumber( sdata ) ) then 
@@ -185,6 +187,8 @@ hook.Add( DBugR.Prefix .. "OnDataRaw", "DataLog", function( typ, name, state, da
 end);
 
 hook.Add( DBugR.Prefix .. "OnGDataRaw", "DataLog", function( state, row, size, name ) 
+
+	if ( !DBUGR_LOGGING_ENABLED ) then return; end
 
 	DBugR.Logger.GData[ name ] = DBugR.Logger.GData[ name ] or {};
 	table.insert( DBugR.Logger.GData[ name ], { state = state, row = row, size = size } );

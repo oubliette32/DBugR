@@ -117,6 +117,11 @@ DBUGR_PACKET_SIZE		= 512;
 // ======================================================================
 
 /*
+	Added 2014 - Feb 13.  If enabled, loggging will perform as it usually does, otherwise logging will be completely disabled.
+*/
+DBUGR_LOGGING_ENABLED   = false;
+
+/*
 	If enabled, files that are older than DBUGR_PURGE_TIME will be automatically deleted.
 */
 DBUGR_PURGE_ENABLED     = true;

@@ -25,6 +25,9 @@ util.AddNetworkString( DBugR.Prefix .. "OnClientLoad" );
 // sent to connected players as the data is made available.
 hook.Add( "PlayerInitialSpawn", DBugR.Prefix .. "InitialData", function( ply ) 
 
+	// This is an expensive un-needed action if logging isn't enabled
+	if ( !DBUGR_LOGGING_ENABLED ) then return; end
+
 	if ( !hook.Run( DBugR.Prefix .. "PlayerAuth", ply ) ) then return; end
 
 	// Get all directories in the serverside log directory and send them to the client
