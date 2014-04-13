@@ -31,7 +31,8 @@ function DBugR.Profilers.Hook.Start()
 	if ( !DBugR.Profilers.Hook.OldHA ) then 
 
 		// QAC, ZeroTheFallen's AC detours hook.Add, we need the original
-		if ( CLIENT && QAC ) then 
+		// LeyAC also des tgis (dumgf fuckers)
+		if ( CLIENT && ( QAC || LeyAC ) ) then 
 
 			_, DBugR.Profilers.Hook.OldHA = debug.getupvalue( hook.Add, 2 ); 
 
