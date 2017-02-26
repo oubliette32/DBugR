@@ -53,7 +53,7 @@ function DBugR.Profilers.Hook.Start()
 			local priority;
 			if ( ULib ) then 
 
-				local _, oldHooks = debug.getupvalue(DBugR.Profilers.Hook.OldHA, 3);
+				local _, oldHooks = debug.getupvalue(DBugR.Profilers.Hook.OldHA, 4);
 				priority = 0;
 
 				for i = 1, #(oldHooks[ typ ] or {}) do 
