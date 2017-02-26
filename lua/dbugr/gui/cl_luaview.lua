@@ -164,6 +164,8 @@ function panel:AppendText( t )
 
 	end
 
+	if ( !t ) then return; end
+
 	// Build the text char by char, inserting color changes where possible
 	for i = 1, t:len() do 
 
